@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+
+    <style>
+      .child {
+        display: flex;
+        align-items: center;
+        padding-left: 1%;
+        width: 90%;
+        height: 50px;
+        margin-left: 5%;
+      }
+      .parent {
+        background-color: cornflowerblue;
+        width: 100%;
+        height: 190px;
+      }
+
+      .child-one {
+        background-color: lightgreen;
+      }
+
+      .child-two {
+        background-color: lightcoral;
+      }
+
+      .child-three {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      Parent
+      <div class="child-one child">One</div>
+      <div class="child-two child">Two</div>
+      <div class="child-three child">Three</div>
+    </div>
+  </body>
+</html>
